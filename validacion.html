@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+    <link rel="stylesheet" href="validacion.css" >
+    <link rel="stylesheet" href="validacion.js">
+</head>
+<body>
+<p ALIGN=LEFT></p>
+<p ></p>
+<div  onsubmit="return validarFormulario()"></div>
+    <form class="formulario" >
+       <div>
+        <label for="name"> Nombre</label>
+        <input type="text" name="name" required autocomplete="off" minlength="6" maxlength="10"  />
+
+       </div>
+        <div>
+            <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" required autocomplete="off" minlength="6" maxlength="10" >
+        </div>
+       <div>
+        <label for="" > Correo</label>
+        <input type="email" required>
+       </div>
+       
+        <div>
+            <label for=""> Edad</label>
+            <input type="number" required>
+        </div>
+
+       
+        <div >
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+</div>
+
+
+</form>
+</body>
+</html>
